@@ -1,4 +1,6 @@
 import type { MetaFunction } from "@remix-run/node";
+import MyContact from "./myContact";
+import ToDoLists from "./toDolists";
 
 export const meta: MetaFunction = () => {
   return [
@@ -49,7 +51,9 @@ export default function Index() {
         <li>Author: Vasawat Harnsarikij</li>
         <li>Class : Information Technology</li>
         <li>E-mail: vasawat.har@rmutto.ac.th</li>
-      </ul>  
+      </ul> 
+      <MyContact />
+      <ToDoLists /> 
     </div>
   );
 }
