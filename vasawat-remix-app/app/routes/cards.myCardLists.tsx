@@ -19,7 +19,9 @@ export default function CardLists (){
               name: n,
               position: p,
               location: l,
-              desc: d
+              desc: d,
+
+           
            }
         ]);
     }
