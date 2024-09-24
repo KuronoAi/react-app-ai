@@ -1,9 +1,13 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "firebase": "^10.13.1",
     "firebase-admin": "^12.4.0"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "serv": "node --no-warnings index.js"
+  }
 }
